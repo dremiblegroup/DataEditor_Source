@@ -1,5 +1,5 @@
 
---Script version: 2021.01.16.
+--Script version: 2021.02.02.
 
 --The code is made by Xsticcy.
 --This is the code of the Roblox plugin: Data Editor
@@ -128,9 +128,6 @@ function reloadTheme(theme)
 end
 
 reloadTheme(PluginDS:GetAsync('theme'))
-
-
-t = themeColors[PluginDS:GetAsync('theme')]
 
 local canSwitchTheme = true
 
